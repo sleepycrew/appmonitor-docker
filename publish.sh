@@ -1,6 +1,6 @@
 REGISTRY=ghcr.io
 IMAGE=sleepycrew/appmonitor
 
-docker publish $REGISTRY/$IMAGE:v0.115
-docker publish $REGISTRY/$IMAGE:v0.116
-docker publish $REGISTRY/$IMAGE:master
+docker push $REGISTRY/$IMAGE:v0.115
+docker push $REGISTRY/$IMAGE:v0.116
+docker push $REGISTRY/$IMAGE:master
